@@ -2,7 +2,7 @@ const { expect, assert } = require("chai");
 
 describe('Search Google Functionality', function() {
 
-    it('As user, I should be able to access null column site, so that I could I see the match result of my search.', function() {
+    it('As user, I should be able to access null column site, so that I could click the automation testing category', function() {
 
       // For non angular website, you need to declare this in order to run.
       browser.waitForAngularEnabled(false);
